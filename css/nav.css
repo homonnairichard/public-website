@@ -1,0 +1,79 @@
+  .felsonav {
+    overflow: hidden;
+    background-color: white;
+    margin-top: 0px;
+  } 
+
+  #logo-igazitas{
+    float: left;
+  }
+
+  .img{
+    max-width: 120px;
+    width: 90%;
+  }
+
+  .kereso-kozep{
+    text-align: center;
+  }
+
+  * {box-sizing: border-box;}
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .felsonav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .felsonav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .felsonav a:hover {
+    color: black;
+  }
+  
+  .felsonav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .felsonav input[type=text] {
+    width: 400px;
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .felsonav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .felsonav .search-container {
+      float: none;
+    }
+    .felsonav a, .felsonav input[type=text], .felsonav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .felsonav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }

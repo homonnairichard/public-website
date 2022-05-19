@@ -1,0 +1,12 @@
+a{
+    color: black;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-szoveg{
+    height: 30px;
+    text-align: center;
+    background-color: #e9e9e9;
+}
